@@ -17,6 +17,7 @@ function tabs(tabsSelector, tabsContentSelector, tabsParentSelector, activeClass
     function showTabContent(i){
         tabsContent[i].style.display = 'block';
         tabs[i].classList.add(activeClass);
+    
     }
 
     hideTabContent();
